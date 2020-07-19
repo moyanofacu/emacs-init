@@ -1,3 +1,5 @@
+;; 19 JUL 2020
+
 ;; Red Hat Linux default .emacs initialization file
 
 ;; Set up the keyboard so the delete key on both the regular keyboard
