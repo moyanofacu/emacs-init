@@ -1,4 +1,4 @@
-;; 19 JUL 2020
+:; 25 JUL 2020 - right
 
 ;; Red Hat Linux default .emacs initialization file
 
@@ -51,3 +51,7 @@
 (autoload 'octave "octave-mod" nil t)
 (setq auto-mode-alist
       (cons '("\\.m$" . octave-mode) auto-mode-alist))
+
+ '(mode-line-highlight ((t (:box (:line-width 2 :color "dark orange" :style released-button)))))
+ '(region ((t (:background "orange" :distant-foreground "gtk_selection_fg_color")))))  ;; esto es para que el subrayado este en naranja
+
