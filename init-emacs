@@ -48,6 +48,7 @@
   (setq frame-title-format "%b")
 (set-display-table-slot standard-display-table 'wrap ?\ )
 
+;; Para que reconozca automaticamente los archivos de MATLAB/OCTAVE
 (autoload 'octave "octave-mod" nil t)
 (setq auto-mode-alist
       (cons '("\\.m$" . octave-mode) auto-mode-alist))
